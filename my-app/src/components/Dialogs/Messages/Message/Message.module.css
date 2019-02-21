@@ -1,0 +1,20 @@
+.wrapper{
+    display: flex; 
+}
+.wrapper:last-of-type{
+    justify-content: flex-end;
+    
+}
+
+.wrapper:last-of-type > p {
+    border-radius: 0;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+.wrapper > p {
+    margin: 2px 0;
+    padding: 3px 20px;
+    border: 1px solid #24292e;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+}

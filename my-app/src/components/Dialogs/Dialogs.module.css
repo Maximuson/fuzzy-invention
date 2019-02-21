@@ -1,0 +1,16 @@
+.dialogWrapper{
+
+    position: relative;
+    margin: 50px 0;
+    display: flex;
+    justify-content: space-around;
+    /* border: 1px solid #24292e; */
+    min-height: 300px;
+    padding: 10px;
+}
+
+.delimiter{
+    display: flex;
+    align-self: stretch;
+    border-left: 1px solid #24292e;
+}

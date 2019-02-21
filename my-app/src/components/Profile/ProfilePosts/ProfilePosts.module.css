@@ -1,0 +1,28 @@
+.wrapper{
+    width: 60%;
+}
+.createPostBlock{
+    padding: 10px;
+    margin-bottom: 10px;
+    box-shadow:  0px 5px 17px -5px gray;
+}
+
+.createPostBlock textarea{
+    outline: none;
+	-moz-appearance: none;
+    padding: 10px;
+    min-height: 100px;
+    width: calc( 100% - 20px ) ;
+    max-width: calc( 100% - 20px );
+    min-width: calc( 100% - 20px );
+}
+
+.createPostBlock button{
+    padding: 5px;
+    background: white;
+    box-shadow:  0px 5px 17px -5px gray;
+}
+.posts{
+    display: flex;
+    flex-direction: column-reverse;
+}

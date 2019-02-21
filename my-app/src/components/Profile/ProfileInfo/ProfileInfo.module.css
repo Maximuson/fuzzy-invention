@@ -1,0 +1,22 @@
+.textAndAvatar{
+    max-width: 200px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+ .textAndAvatar h2{
+    display: flex;
+    flex-wrap: wrap;
+    align-self: center;
+}
+.textAndAvatar h3{
+    display: flex;
+    flex-wrap: wrap;
+    align-self: center;
+    margin: 0;
+}
+.avatarProfile{
+    display: block; 
+    height: 200px;
+    border-radius: 50%;
+}
